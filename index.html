@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GifTastic</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+	<style>
+		.gifButton {
+			margin: 5px;
+		}
+
+		#button-row {
+			margin-top: 10px;
+		}
+
+		#submit-button {
+			margin-top: 10px;
+		}
+
+		div {
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row" id="button-row">
+			<div class="col-md-5" id="searchContainer">
+				<form>
+					<div class="form-group">
+						<label for="form-searchBox">Add an animal</label>
+	                	<input class="form-control" id="form-searchBox" type="text">
+	                	<button class="btn btn-primary" id="submit-button" type="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-7" id="buttonsContainer">
+				
+			</div>
+		</div>
+		<div class="row" id="gif-row">
+			<div class="col-md-12" id="gifContainer">
+				
+			</div>
+		</div>
+	</div>
+	
+	<script src="assets/javascript/app.js"></script>
+</body>
+</html>
